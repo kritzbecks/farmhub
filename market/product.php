@@ -1,3 +1,17 @@
+<?php
+
+$id=$_GET["id"];
+
+
+
+
+
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +23,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>FarmHub - Connectingn Farmers</title>
+    <title>FarmHub - Connecting Farmers</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -84,8 +98,8 @@
         <!-- Portfolio Item Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Rice IR 10 variety
-                    <small>Catergory</small>
+                <h1 class="page-header"> <?php echo $title;?>
+                    <small><?php echo $catergory;?></small>
                 </h1>
             </div>
         </div>
@@ -99,17 +113,10 @@
             </div>
 
             <div class="col-md-6">
-                <h2>Rs.15000</h2>
+                <h2><?php echo $price;?></h2>
 
                 <h3>Product Catergory</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                <h3>Project Details</h3>
-                <ul>
-                    <li>Lorem Ipsum</li>
-                    <li>Dolor Sit Amet</li>
-                    <li>Consectetur</li>
-                    <li>Adipiscing Elit</li>
-                </ul>
+                <?php echo $des ?>
                 <button type="button" class="btn btn-primary btn-lg btn-block">Bid Now</button>
                 <button type="button" class="btn btn-primary btn-lg btn-block">Buy Now</button>
             </div>
