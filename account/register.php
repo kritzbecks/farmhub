@@ -156,8 +156,8 @@
 
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span>Register</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Log in</a></li>
+                <li><a href="register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
+                <li><a href="index.php"><span class="glyphicon glyphicon-log-in"></span> Log in</a></li>
             </ul>
 
         </div>

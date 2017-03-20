@@ -79,7 +79,7 @@
                     <a href="/market">Market</a>
                 </li>
                 <li>
-                    <a href="#">Post</a>
+                    <a href="post.php">Post</a>
                 </li>
                 <li>
                     <a href="#">Bidding</a>
@@ -87,8 +87,8 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span>Profile</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Log oout</a></li>
+                <li><a href="index.html"><span class="glyphicon glyphicon-user"></span>Profile</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Log out</a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -104,11 +104,11 @@
         <div class="col-md-3">
             <p class="lead">Hello Mr.XXX</p>
             <div class="list-group">
-                <a href="#" class="list-group-item">Post a Product</a>
-                <a href="#" class="list-group-item active">Published Products</a>
+                <a href="post.php" class="list-group-item">Post a Product</a>
+                <a href="published.php" class="list-group-item active">Published Products</a>
                 <a href="tip.php" class="list-group-item">Tip Farmers</a>
                 <a href="notification.php" class="list-group-item">Notifications</a>
-                <a href="#" class="list-group-item">Settings</a>
+                <a href="settings.php" class="list-group-item">Settings</a>
             </div>
         </div>
 

@@ -87,8 +87,8 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span>Profile</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Log oout</a></li>
+                <li><a href="index.html"><span class="glyphicon glyphicon-user"></span>Profile</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Log out</a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -107,9 +107,9 @@
                 <a href="#" class="list-group-item">Interested Products</a>
                 <a href="#" class="list-group-item">View Interest</a>
                 <a href="#" class="list-group-item">View orders</a>
-                <a href="#" class="list-group-item">Notifications</a>
+                <a href="notification.php" class="list-group-item">Notifications</a>
 
-                <a href="#" class="list-group-item">Settings</a>
+                <a href="settings.php" class="list-group-item">Settings</a>
             </div>
         </div>
 

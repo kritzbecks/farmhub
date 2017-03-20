@@ -87,7 +87,7 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span>Profile</a></li>
+                <li><a href="index.php"><span class="glyphicon glyphicon-user"></span>Profile</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Log oout</a></li>
             </ul>
         </div>
@@ -104,17 +104,19 @@
         <div class="col-md-3">
             <p class="lead">Hello Mr.XXX</p>
             <div class="list-group">
-                <a href="#" class="list-group-item">Post a Product</a>
-                <a href="#" class="list-group-item">Published Products</a>
-                <a href="#" class="list-group-item">Tip Farmers</a>
-                <a href="#" class="list-group-item">Notifications</a>
-                <a href="#" class="list-group-item">Settings</a>
+                <a href="request.php" class="list-group-item">Request Products</a>
+                <a href="interest.php" class="list-group-item">Interested Products</a>
+                <a href="viewint.php" class="list-group-item">View Interest</a>
+                <a href="orders.php" class="list-group-item">View orders</a>
+                <a href="notification.php" class="list-group-item">Notifications</a>
+
+                <a href="settings.php" class="list-group-item active">Settings</a>
             </div>
         </div>
 
         <div class="col-md-9">
 
-            <h1>Your Profile and StatsHere </h1>
+            <h1>hello</h1>
 
         </div>
 
